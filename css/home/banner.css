@@ -17,5 +17,6 @@
   max-width: 800px;
   line-height: 1.4;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-  font-family: Georgia, serif;
+  font-family: "Alegreya";
+  font-weight: 800;
 }
