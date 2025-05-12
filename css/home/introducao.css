@@ -38,21 +38,3 @@
     width: 100%;
   }
 }
-
-/* @media (max-width:800px) {
-    
-    .introducao {
-      grid-template-columns: 1fr;
-      gap: 32px;
-    }
-    .introducao-conteudo {
-      padding-bottom: 0px;
-    }
-    .introducao h1 {
-      margin-bottom: 16px;
-    }
-    .introducao img {
-      height: 300px;
-      width: 100%;
-    }
-  } */
