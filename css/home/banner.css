@@ -12,11 +12,6 @@
 }
 
 .banner h1 {
-  color: var(--cor-0);
-  font-size: 2.5rem;
   max-width: 800px;
-  line-height: 1.4;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-  font-family: "Alegreya";
-  font-weight: 800;
 }

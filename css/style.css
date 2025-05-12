@@ -5,6 +5,7 @@
 /*Utilidades*/
 @import "./utilidades/componentes.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
 
 /*Home*/
 @import "./home/banner.css";
