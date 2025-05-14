@@ -16,7 +16,7 @@
 .produtos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
+  gap: 0 2.5rem;
   align-items: start;
   padding: 1.875rem 0;
 }
@@ -32,16 +32,24 @@
 
 .produtos-conteudo {
   display: grid;
-  gap: 1rem;
   place-self: start;
+}
+
+.produtos-conteudo h2, span {
+  margin-bottom: 1rem;
+}
+
+.produtos-conteudo p {
+  margin-bottom: 2rem;
 }
 
 .produtos-conteudo span {
   display: block;
   font-style: italic;
+  margin-bottom: 1rem;
 }
 
-.produtos-lista li {
+.produtos li {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -57,36 +65,51 @@
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
+
   .titulo h1 {
     padding-bottom: 2rem;
   }
+
   .produtos-bg {
     background: var(--cor-p2);
     margin-bottom: 2rem;
   }
+
   .produtos {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.25remrem;
-    align-items: start;
-    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 1.25rem;
   }
-  .produtos-conteudo {
-    order: -1;
-    grid-column: 1 / -1;
-    padding: 0rem 1.25rem;
+
+  .produtos-imagem {
+    order: 1;
+    align-self: center;
   }
 
   .produtos-imagem img {
-    max-width: 200px;
+    max-width: 300px;
     width: 100%;
-    justify-content: start;
+    height: auto;
+    object-fit: cover;
   }
 
-  .produtos-conteudo ul {
-    padding: 2rem 0;
+  .produtos-conteudo {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .produtos-conteudo p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .produtos-conteudo li {
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
   }
 
   .produtos-conteudo a {
-    align-self: center;
-  }
-}
+    order: 3;
+    align-self:
