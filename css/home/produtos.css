@@ -35,12 +35,9 @@
   place-self: start;
 }
 
-.produtos-conteudo h2, span {
+.produtos-conteudo h2,
+span, p{
   margin-bottom: 1rem;
-}
-
-.produtos-conteudo p {
-  margin-bottom: 2rem;
 }
 
 .produtos-conteudo span {
@@ -100,16 +97,13 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .produtos-conteudo p {
     margin-bottom: 0.5rem;
   }
-  
+
   .produtos-conteudo li {
     gap: 0.2rem;
     margin-bottom: 0.5rem;
   }
-
-  .produtos-conteudo a {
-    order: 3;
-    align-self:
+}
