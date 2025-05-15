@@ -1,0 +1,53 @@
+.graos-bg {
+  background: var(--cor-p6);
+  box-shadow: inset 0 80px var(--cor-p1), inset 0 -80px var(--cor-p1);
+}
+
+.graos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.graos-conteudo {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.graos-conteudo > span {
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.graos-conteudo > h1 {
+  margin-bottom: 2rem;
+}
+
+.graos-conteudo > p {
+  margin-bottom: 1.25rem;
+}
+
+.graos-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 800px) {
+  .graos-bg {
+    box-shadow: initial;
+  }
+  .graos {
+    grid-template-columns: 1fr;
+    gap: 0rem;
+  }
+  .graos-conteudo {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+  .graos-imagem img {
+    display: none;
+  }
+}
+

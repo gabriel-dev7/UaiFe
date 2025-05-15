@@ -36,7 +36,8 @@
 }
 
 .produtos-conteudo h2,
-span, p{
+span,
+p {
   margin-bottom: 1rem;
 }
 
@@ -105,5 +106,15 @@ span, p{
   .produtos-conteudo li {
     gap: 0.2rem;
     margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .produtos-bg-fundo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .produtos-imagem img {
+    max-width: 200px;
   }
 }
