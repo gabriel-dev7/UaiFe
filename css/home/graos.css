@@ -36,6 +36,7 @@
 
 @media (max-width: 800px) {
   .graos-bg {
+    background: var(--cor-p6);
     box-shadow: initial;
   }
   .graos {
