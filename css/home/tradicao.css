@@ -1,0 +1,70 @@
+.cafe-bg {
+  background: var(--cor-p1);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.cafe h1 {
+  text-align: center;
+  margin-bottom: 3.75rem;
+}
+
+.cafe-imagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 3.75rem;
+}
+
+.cafe-box {
+  position: relative;
+}
+
+.cafe-box img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+}
+
+.cafe-texto {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--cor-p2);
+  padding: 0.625rem 1.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.cafe-mensagem {
+  max-width: 60ch;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .cafe-imagens {
+    grid-template-columns: 1fr;
+  }
+  .cafe-box img {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cafe-bg {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .cafe h1 {
+    margin-bottom: 2rem;
+  }
+  .cafe-imagens {
+    margin-bottom: 2rem;
+  }
+  .cafe-box img {
+    max-height: 180px;
+  }
+}
