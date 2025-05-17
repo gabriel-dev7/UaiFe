@@ -1,6 +1,7 @@
 /*Global*/
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /*Utilidades*/
 @import "./utilidades/componentes.css";
@@ -14,3 +15,4 @@
 @import "./home/graos.css";
 @import "./home/tradicao.css";
 @import "./home/depoimento.css";
+@import "./home/newsletter.css";

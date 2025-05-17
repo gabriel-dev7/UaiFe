@@ -1,0 +1,58 @@
+.newsletter-bg {
+  background: var(--cor-11);
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.newsletter-info {
+  flex: 1 1 240px;
+}
+
+.newsletter-form {
+  flex: 2 1 260px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  flex: 3 1 260px;
+  font-size: 1.25em;
+  color: var(--cor-6);
+  font-style: italic;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  border: 4px solid var(--cor-p6);
+  background: var(--cor-p1);
+  padding: 0.875rem 0.625rem;
+  margin: 0rem;
+  border-radius: 0rem;
+}
+
+.newsletter-form button {
+  flex: 1 1 200px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: var(--cor-p6);
+  color: var(--cor-0);
+  margin: 0rem;
+  cursor: pointer;
+  border: 0rem;
+  padding: 0.875rem 0.625rem;
+}
+
+@media (max-width: 600px) {
+  .newsletter {
+    gap: 1rem;
+  }
+  .newsletter-form button {
+    font-size: 1.25em;
+  }
+}
