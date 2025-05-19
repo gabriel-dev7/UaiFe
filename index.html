@@ -12,6 +12,7 @@
 
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./css/style.css" as="style">
+  <link rel="preload" as="image" href="./img/fotos/graos.png">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -50,48 +51,38 @@
     </div>
   </section>
 
-  <section id="produtos" class="produtos-bg-fundo">
-    <div class="titulo container">
-      <h1 class="font-1-xxl cor-p6">Produtos</h1>
+  <article class="produtos-bg">
+    <div class="produtos-lista">
+      <h2 class="container font-1-xxl cor-p6">Produtos</h2>
+
+      <ul>
+        <li>
+          <a href="./">
+            <img src="./img/produtos/cafe-tradicional.jpg" width="600" height="786" alt="Café Tradicional">
+            <h3 class="font-1-xl">Café Tradicional</h3>
+            <p class="font-2-l cor-p6">500g</p>
+            <span class="font-2-m cor-8">R$ 24,90</span>
+          </a>
+        </li>
+        <li>
+          <a href="./">
+            <img src="./img/produtos/cafe-gourmet.jpg" width="600" height="794" alt="Café Gourmet">
+            <h3 class="font-1-xl">Café Gourmet</h3>
+            <p class="font-2-l cor-p6">500g</p>
+            <span class="font-2-m cor-8">R$ 29,90</span>
+          </a>
+        </li>
+        <li>
+          <a href="./">
+            <img src="./img/produtos/cafe-especial.jpg" width="600" height="796" alt="Café Especial">
+            <h3 class="font-1-xl">Café Especial</h3>
+            <p class="font-2-l cor-p6">1Kg</p>
+            <span class="font-2-m cor-8">R$ 44,90</span>
+          </a>
+        </li>
+      </ul>
     </div>
-
-    <article class="produtos-bg">
-      <div class="produtos container">
-        <div class="produtos-imagem">
-          <img src="./img/produtos/cafe-tradicional.jpg" alt="Café Tradicional">
-        </div>
-        <div class="produtos-conteudo">
-          <h2 class="font-1-xl cor-p6">Café Tradicional - 500g</h2>
-          <span class="font-2-m cor-p4"> O sabor de minas que abraça o dia-a-dia</span>
-          <p class="font-2-m cor-p5">Uma torra equilibrada, com aroma suave e corpo leve. Ideal para aquele cafezinho de toda hora, jeito que o mineiro gosta. Produzido com grãos selecionados das montanhas de Minas Gerais.</p>
-          <ul class="font-2-s cor-p3">
-            <li><img src="./img/icones/gramas.svg" alt="Gramas" width="24" height="24">500g | Torrado e moído</li>
-            <li><img src="./img/icones/graos.svg" alt="Grãos" width="24" height="24">Grãos selecionados | Produção artesanal</li>
-          </ul>
-          <a class="botao" href="#">Mais sobre</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="produtos-bg">
-      <div class="produtos container">
-        <div class="produtos-imagem">
-          <img src="./img/produtos/cafe-gourmet.jpg" alt="Café Gourmet">
-        </div>
-        <div class="produtos-conteudo">
-          <h2 class="font-1-xl cor-p6">Café Gourmet - 500g</h2>
-          <span class="font-2-m cor-p4"> Do alto das montanhas mineiras para o seu momento mais especial.</span>
-          <p class="font-2-m cor-p5">Feito com grãos arábica de alta qualidade das montanhas de Minas Gerais, este café tem sabor refinado e aroma marcante. A torra cuidadosa preserva o açúcar natural, destacando notas de mel e castanhas. Com corpo encorpado e menos cafeína, é perfeito para momentos de pausa e aconchego.</p>
-          <ul class="font-2-s cor-p3">
-            <li><img src="./img/icones/gramas.svg" alt="Gramas" width="24" height="24">500g | Torrado e moído</li>
-            <li><img src="./img/icones/graos.svg" alt="Grãos" width="24" height="24">Grãos selecionados | Produção artesanal</li>
-            <li><img src="./img/icones/star.svg" alt="Estrela" width="24" height="24">100% grãos arábica | Qualidade premium</li>
-          </ul>
-          <a class="botao" href="#">Mais sobre</a>
-        </div>
-      </div>
-    </article>
-  </section>
+  </article>
 
   <article id="graos" class="graos-bg">
     <div class="graos container">

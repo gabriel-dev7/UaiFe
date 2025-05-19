@@ -12,7 +12,7 @@ body {
  color: #3B2214;
 }
 
-h1, h2, p, span, blockquote {
+h1, h2, h3, p, span, blockquote {
   margin: 0rem;
   padding: 0rem;
 }
