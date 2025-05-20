@@ -20,7 +20,7 @@
 
 .produtos-lista li {
   flex: 1;
-  min-width: 17rem;
+  min-width: 15rem;
 }
 
 .produtos-lista a {
@@ -29,6 +29,7 @@
 
 .produtos-lista img {
   margin-bottom: 1rem;
+  border-radius: 0.25rem;
 }
 
 .produtos-lista h3 {
@@ -54,6 +55,7 @@
 .produtos-lista li span {
   padding-left: 1.25rem;
 }
+
 .produtos-lista li p {
   padding-left: 1.25rem;
   margin-bottom: 0.5rem;

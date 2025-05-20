@@ -22,9 +22,11 @@
   font-style: italic;
   font-weight: 900;
   font-size: 1.5rem;
+  line-height: 1.6;
   margin-bottom: 2rem;
   color: var(--cor-p1);
   position: relative;
+  padding: 1rem;
 }
 
 .depoimento p::before,
@@ -54,12 +56,41 @@
     grid-template-columns: 1fr;
     text-align: center;
   }
+
   .depoimento img {
     max-height: 200px;
     object-position: top;
   }
+
   .depoimento-conteudo {
     padding: 2.5rem 1.25rem;
     justify-self: center;
+  }
+
+  .depoimento-conteudo p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: 0.75rem;
+    max-width: 28ch;
+  }
+
+  .depoimento p::before,
+  .depoimento p::after {
+    font-size: 2.5rem;
+  }
+
+  .depoimento p::before {
+    left: -1rem;
+    top: 0rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .depoimento-conteudo p {
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 0.5rem;
+    max-width: 100%;
+    margin-bottom: 0.5rem;
   }
 }

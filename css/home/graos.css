@@ -32,6 +32,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  display: block;
 }
 
 @media (max-width: 800px) {
@@ -47,7 +48,7 @@
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
   }
-  .graos-imagem img {
+  .graos-imagem {
     display: none;
   }
 }
