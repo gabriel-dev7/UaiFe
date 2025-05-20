@@ -4,15 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UaiFé - Café de Minas</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <title>UaiFé - Café de Minas</title>
+  <meta name="description" content="UaiFé - Café de Minas: grãos selecionados das montanhas de Minas Gerais, preparados com tradição, sabor e aconchego mineiro. Descubra o verdadeiro café artesanal.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600;800&family=Lato:wght@400;500;700&family=Merriweather:wght@900&display=swap" rel="stylesheet" />
+
+
 
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="./img/fotos/graos.jpg">
   <link rel="preload" href="./css/style.css" as="style">
-  <link rel="preload" as="image" href="./img/fotos/graos.png">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -45,9 +49,9 @@
           Cada xícara carrega o aroma das montanhas, a tradição da nossa terra e a paixão de quem entende de café de verdade. Do cultivo ao preparo, valorizamos o artesanal, o sustentável e tudo o que é feito com o coração.<br>
           Aqui, o café não é apenas uma bebida — é um convite para desacelerar, prosear e sentir o aconchego de Minas, onde quer que você esteja.</p>
       </div>
-      <div>
-        <img src="./img/fotos/cafe-quente.png" alt="Café Quente" width="940" height="1168">
-      </div>
+      <picture>
+        <img src="./img/fotos/cafe-quente.jpg" alt="Café Quente" loading="lazy" width="940" height="1168">
+      </picture>
     </div>
   </section>
 
@@ -58,7 +62,7 @@
       <ul>
         <li>
           <a href="./">
-            <img src="./img/produtos/cafe-tradicional.jpg" width="600" height="786" alt="Café Tradicional">
+            <img src="./img/produtos/cafe-tradicional.jpg" width="600" height="820" alt="Café Tradicional">
             <h3 class="font-1-xl">Café Tradicional</h3>
             <p class="font-2-l cor-p6">500g</p>
             <span class="font-2-m cor-8">R$ 24,90</span>
@@ -66,7 +70,7 @@
         </li>
         <li>
           <a href="./">
-            <img src="./img/produtos/cafe-gourmet.jpg" width="600" height="794" alt="Café Gourmet">
+            <img src="./img/produtos/cafe-gourmet.jpg" width="600" height="820" alt="Café Gourmet">
             <h3 class="font-1-xl">Café Gourmet</h3>
             <p class="font-2-l cor-p6">500g</p>
             <span class="font-2-m cor-8">R$ 29,90</span>
@@ -74,7 +78,7 @@
         </li>
         <li>
           <a href="./">
-            <img src="./img/produtos/cafe-especial.jpg" width="600" height="796" alt="Café Especial">
+            <img src="./img/produtos/cafe-especial.jpg" width="600" height="820" alt="Café Especial">
             <h3 class="font-1-xl">Café Especial</h3>
             <p class="font-2-l cor-p6">1Kg</p>
             <span class="font-2-m cor-8">R$ 44,90</span>
@@ -97,7 +101,7 @@
 
       </div>
       <div class="graos-imagem">
-        <img src="./img/fotos/cafe-grao.jpg" alt="Café grãos no copo">
+        <img src="./img/fotos/cafe-grao.jpg" width="1300" height="1950" alt="Café grãos no copo">
       </div>
     </div>
   </article>
@@ -108,12 +112,12 @@
 
       <div class="cafe-imagens">
         <div class="cafe-box">
-          <img src="./img/fotos/amor.jpg" alt="Amor">
+          <img src="./img/fotos/amor.jpg" width="1119" height="746" alt="Amor">
           <div class="cafe-texto cor-p6 font-1-m-b">Amor</div>
         </div>
 
         <div class="cafe-box">
-          <img src="./img/fotos/paz.jpg" alt="Liberdade">
+          <img src="./img/fotos/paz.jpg" width="1120" height="824" alt="Liberdade">
           <div class="cafe-texto cor-p6 font-1-m-b">Liberdade</div>
         </div>
       </div>
@@ -126,7 +130,7 @@
 
   <section aria-label="depoimento" class="depoimento">
     <div>
-      <img src="./img/fotos/depoimento.jpg" alt="Cliente satisfeito com xícara de café">
+      <img src="./img/fotos/depoimento.jpg" width="1480" height="988" alt="Cliente satisfeito com xícara de café">
     </div>
     <div class="depoimento-conteudo">
       <blockquote>
@@ -142,7 +146,7 @@
         <h1 class="font-1-xl cor-0">Assine Nossa Newsletter e viva a Experiência UaiFé!☕️</h1>
       </div>
       <form class="newsletter-form">
-        <input type="text" placeholder="seu email ...">
+        <input type="email" placeholder="seu email ...">
         <button type="submit">Assinar</button>
       </form>
     </div>
@@ -150,7 +154,7 @@
 
   <footer class="footer-bg" id="contato">
     <div class="footer container">
-      <img src="./img/uaife.svg" alt="Logo UaiFé">
+      <img src="./img/uaife.svg" width="100" height="100" alt="Logo UaiFé">
 
       <div class="footer-contato">
         <h3 class="font-2-l-b cor-0">Contato</h3>
@@ -161,9 +165,9 @@
           <li>São Paulo - SP</li>
         </ul>
         <div class="footer-redes">
-          <a href="./"><img src="./img/redes/youtube.svg" alt="Youtube"></a>
-          <a href="./"><img src="./img/redes/instagram.svg" alt="Instagram"></a>
-          <a href="./"><img src="./img/redes/facebook.svg" alt="Facebook"></a>
+          <a href="./"><img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube"></a>
+          <a href="./"><img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram"></a>
+          <a href="./"><img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook"></a>
         </div>
       </div>
 
